@@ -1,0 +1,45 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+a:hover {
+  color: #2b2bb2;
+  transition: 0.3s;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 200px;
+  background-color: rgb(169, 204, 216);
+}
+
+li {
+  font-size: 14pt;
+}
+
+.list {
+  margin-bottom: 100%;
+}
+
+.image {
+  padding-left: 20%;
+}
+
+.logo {
+  margin-bottom: 50%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
